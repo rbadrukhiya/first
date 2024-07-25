@@ -1,0 +1,483 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1200px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* aboutmain start */
+
+.about-main {
+    background-image: url(../image/about\ bg1.jpg);
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.about-main .about-item {
+    display: block;
+}
+
+.about-main .about-item h1 {
+    display: block;
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: aliceblue;
+    font-family: "Marcellus", serif;
+    text-transform: uppercase;
+    letter-spacing: 17px;
+}
+
+/* aboutmain end */
+/* aboutinfo start */
+.about-info {
+    margin: 50px;
+    clear: both;
+}
+
+.about-info .about-inner {
+    padding: 0 15px;
+    display: block;
+}
+
+.about-info .about-inner .about-item {
+    display: block;
+}
+
+.about-info .about-inner .about-item .about-inner-item {
+    display: flex;
+    /* width: 40%; */
+}
+
+.about-info .about-inner .about-item .about-inner-item .about-img {
+    margin: 30px;
+    max-width: 40%;
+}
+
+.about-info .about-inner .about-item .about-inner-item .about-img img {
+    width: 100%;
+}
+
+.about-info .about-inner .about-item .about-inner-item .about-text {
+    margin: 30px;
+    text-align: center;
+    max-width: 60%;
+    display: block;
+    width: 100%;
+}
+
+.about-info .about-inner .about-item .about-inner-item .about-text h1 {
+    color: #262626;
+    font-family: Marcellus, sans-serif;
+    /* font-weight: 500; */
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.about-info .about-inner .about-item .about-inner-item .about-text .about-img {
+    margin: 30px;
+    max-width: 40%;
+}
+
+.about-info .about-inner .about-item .about-inner-item .about-text .about-img img {
+    width: 100%;
+
+}
+
+.about-info .about-inner .about-item .about-inner-item .about-text .text2 {
+    text-align: center;
+}
+
+.about-info .about-inner .about-item .about-inner-item .about-text .title {
+    /* margin: ; */
+    padding: 72px;
+}
+
+.about-info .about-inner .about-item .about-inner-item .about-text p {
+    margin: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 300;
+    color: #656565;
+}
+
+.about-info .about-inner .about-item .about-inner-item .about-text .signatur {
+    display: block;
+    margin: 50px;
+}
+
+/* aboutinfo end */
+.last-main {
+    display: block;
+    margin: 30px;
+}
+
+.last-main .last-inner {
+    display: block;
+    padding: 15px;
+}
+
+.last-main .last-inner  .last-item {
+    display: block;
+    /* padding: 3; */
+}
+
+.last-main .last-inner  .last-item .last-header {
+    text-align: center;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.last-main .last-inner  .last-item .last-header h1 {
+    color: #262626;
+    font-family: Marcellus, sans-serif;
+    /* font-weight: 500; */
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 15px;
+}
+
+/* .last-main .last-inner  .last-item .last-header .header-img {
+    margin: 30px;
+    max-width: 40%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.last-main .last-inner  .last-item .last-header .header-img  img {
+    width: 100%;
+} */
+.last-main .last-inner  .last-item .last-header  p{
+    margin: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  line-height: 26px;
+  font-weight: 300;
+  color: #656565;
+  
+ }
+ .last-main .last-inner  .last-item .last-img {
+	display: flex;
+	/* padding: 0 15p; */
+	margin: 45px;
+	flex-wrap: wrap;
+}
+.last-main .last-inner  .last-item .last-img .img1 {
+	max-width: 25%;
+}
+.last-main .last-inner  .last-item .last-img .img1 img {
+	width: 100%;
+	padding: 0 15px;
+}
+
+.footer-main {
+    background-color: black;
+    color: aliceblue;
+    display: block;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-main .footer-inner {
+    display: block;
+}
+
+.footer-main .footer-inner .footer-item {
+    width: 100%;
+    display: block;
+}
+
+.footer-main .footer-inner .footer-item .footer-top {
+    display: flex;
+    width: 100%;
+}
+
+.footer-main .footer-inner .footer-item .footer-top .footer-info {
+    max-width: 33.33%;
+    width: 100%;
+    display: block;
+}
+
+.footer-main .footer-inner .footer-item .footer-top .footer-info h4 {
+
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+
+}
+
+.footer-main .footer-inner .footer-item .footer-top .footer-info .contacts {
+    margin-bottom: 70px;
+}
+
+
+.footer-main .footer-inner .footer-item .footer-top .footer-info .contacts .icon1 {
+
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 13px;
+    color: #999999;
+    line-height: 1.7;
+    margin-bottom: 14px;
+    padding: 0;
+
+}
+
+.footer-main .footer-inner .footer-item .footer-top .footer-info .contacts .icon1::before {
+    content: "\f3c5";
+    font-family: "Font Awesome 6 free";
+    font-weight: 900;
+}
+
+.footer-main .footer-inner .footer-item .footer-top .footer-info .contacts .icon2 {
+
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 13px;
+    color: #999999;
+    line-height: 1.7;
+    margin-bottom: 14px;
+    padding: 0;
+
+}
+
+.footer-main .footer-inner .footer-item .footer-top .footer-info .contacts .icon2::before {
+    content: "\f095";
+    font-family: "Font Awesome 6 free";
+    font-weight: 900;
+}
+
+.footer-main .footer-inner .footer-item .footer-top .footer-info .contacts .icon3 {
+
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 13px;
+    color: #999999;
+    line-height: 1.7;
+    margin-bottom: 14px;
+    padding: 0;
+
+}
+
+.footer-main .footer-inner .footer-item .footer-top .footer-info .contacts .icon3::before {
+    content: "\f674";
+    font-family: "Font Awesome 6 free";
+    font-weight: 900;
+}
+
+.footer-main .footer-inner .footer-item .footer-top .opening-info {
+
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+.footer-main .footer-inner .footer-item .footer-top .opening-info h4 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.footer-main .footer-inner .footer-item .footer-top .opening-info .icon {
+
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 13px;
+    color: #999999;
+    line-height: 1.7;
+    margin-bottom: 14px;
+    padding: 0;
+
+}
+
+.footer-main .footer-inner .footer-item .footer-top .footer-info {
+    display: block;
+}
+
+.footer-main .footer-inner .footer-item .footer-top .footer-info .footer-info-top {
+    display: block;
+
+}
+
+.footer-main .footer-inner .footer-item .footer-top .footer-info .footer-info-top h4 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.footer-main .footer-inner .footer-item .footer-top .footer-info .footer-info-top a {
+
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 13px;
+    color: #ec1d25;
+    line-height: 1.7;
+}
+
+.footer-main .footer-inner .footer-item .footer-top .footer-info .footer-info-top .twittwer-icon::before {
+    content: "\f674";
+    font-family: "Font Awesome 6 free";
+    font-weight: 900;
+    color: #7a7676;
+}
+
+.footer-main .footer-inner .footer-item .footer-top .footer-info .footer-info-top p {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 13px;
+    color: #999999;
+    line-height: 1.7;
+}
+
+.footer-main .footer-inner .footer-item .footer-top .footer-info .footer-info-top p a {
+
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 13px;
+    color: #ec1d25;
+    line-height: 1.7;
+}
+
+.footer-main .footer-inner .footer-item .footer-top .footer-info .footer-info-top span {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 12px;
+    color: #555555;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.footer-main .footer-inner .footer-item .footer-top .footer-info-bottom {
+    display: block;
+    width: 100%;
+    margin-top: 45px;
+}
+
+.footer-main .footer-inner .footer-item .footer-top .footer-info .footer-info-bottom h4 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.footer-main .footer-inner .footer-item .footer-top .footer-info .footer-info-bottom  a {
+
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 13px;
+    color: #ec1d25;
+    line-height: 1.7;
+}
+
+.footer-main .footer-inner .footer-item .footer-top .footer-info .footer-info-bottom  .twittwer-icon::before {
+    content: "\f674";
+    font-family: "Font Awesome 6 free";
+    font-weight: 900;
+    color: #7a7676;
+}
+
+.footer-main .footer-inner .footer-item .footer-top .footer-info .footer-info-bottom  p {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 13px;
+    color: #999999;
+    line-height: 1.7;
+}
+
+.footer-main .footer-inner .footer-item .footer-top .footer-info .footer-info-bottom p a {
+
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 13px;
+    color: #ec1d25;
+    line-height: 1.7;
+}
+
+.footer-main .footer-inner .footer-item .footer-top .footer-info .footer-info-bottom span {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 12px;
+    color: #555555;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.footer-main .footer-inner .footer-item .footer-top .footer-gallery {
+    max-width: 33.33%;
+    width: 100%;
+}
+
+
+.footer-main .footer-inner .footer-item .footer-top .footer-gallery  .img-main {
+    display: block;
+}
+
+.footer-main .footer-inner .footer-item .footer-top .footer-gallery  .img-main .img-inner {
+    display: block;
+}
+
+.footer-main .footer-inner .footer-item .footer-top .footer-gallery  .img-main .img-inner .img-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-main .footer-inner .footer-item .footer-top .footer-gallery  .img-main .img-inner .img-flex .img-item {
+
+    width: 25%;
+}
+
+.footer-main .footer-inner .footer-item .footer-top .footer-gallery  .img-main .img-inner .img-flex .img-item .img-inner-item {
+    padding: 5px;
+    display: block;
+}
+
+.footer-main .footer-inner .footer-item .footer-top .footer-gallery  .img-main .img-inner .img-flex .img-item .img-inner-item .gallery-img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.footer-main .footer-inner .footer-item .footer-top .footer-gallery  .img-main .img-inner .img-flex .img-item .img-inner-item .gallery-img img {
+    width: 100%;
+    transition: all 0.6s;
+}
+
+.footer-main .footer-inner .footer-item .footer-top .footer-gallery .img-main .img-inner .img-flex .img-item .img-inner-item .gallery-img:hover img {
+    transform: scale(1.2);
+}
+
+.footer-main .footer-inner .footer-item .footer-top .footer-gallery  .img-main .img-inner .img-flex .img-item .img-inner-item .gallery-text {
+    display: block;
+}
